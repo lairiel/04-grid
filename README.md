@@ -1,5 +1,6 @@
-# 04-grid
+﻿# 02-html-structure
 
-Студент: напиши сюда имя студента
 
-Наставник: напиши сюда имя наставника
+* Студент: [Stacy](https://github.com/lairiel)
+
+* Наставник: [Alex](https://github.com/dguard)

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+  <html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп "Бородинский"</title>
+
+    <style>
+
+body {
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.top-menu {
+  margin-bottom: 60px;
+}
+
+.top-menu-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-menu-layout::before {
+  display: none;
+}
+
+.main-navigation {
+  width: 780px;
+  min-height: 70px; 
+  background-color: #FFE082;
+}
+
+.logo {
+  width: 140px;
+  height: 50px;
+  background-color: #FF9800;
+}
+
+.user-block {
+  width: 140px;
+  margin-left: auto;
+  min-height: 70px;
+  background-color: #FFD54F;
+}
+
+.header-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-layout::before {
+  display: none;
+}
+
+.header {
+  margin-bottom: 60px;
+}
+
+.sub-navigation {
+  width: 940px;
+  min-height: 70px;
+  background-color: #FFAB91;
+}
+
+.content-layout {
+  display: flex;
+  background-color: #B2EBF2;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+}
+
+.content-layout::before {
+  display: none;
+}
+
+.content-layout b {
+  width: 940px;
+  height: 40px;
+  margin-bottom: 60px; 
+  background-color: #4DD0E1;
+  text-align: center;
+}
+
+.brands {
+  width: 310px;
+  min-height: 220px;
+  background-color: #4DD0E1;
+  margin-bottom: 60px;
+}
+
+.price {
+  width: 470px;
+  min-height: 220px;
+  background-color: #4DD0E1;
+  margin-bottom: 60px;
+}
+
+.content-about-us {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-about-us b {
+  width: 940px;
+  height: 30px;
+  background-color: #4DD0E1;
+  margin-bottom: 30px;
+}
+
+.about-us-left {
+  width: 390px;
+  min-height: 100px;
+  background-color: #4DD0E1;
+  margin-right: 90px;
+}
+
+.about-us-right {
+  width: 400px;
+  min-height: 100px;
+  background-color: #4DD0E1;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #F8BBD0;
+}
+
+.main-footer-layout::before {
+  display: none;
+}
+
+.main-footer-layout {
+  display: flex;
+}
+
+.footer-contacts {
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+  background-color: #F06292;
+}
+
+.footer-social {
+  width: 180px;
+  min-height: 90px;
+  background-color: #F06292;
+}
+
+.footer-copyright {
+  width: 160px;
+  min-height: 90px;
+  background-color: #F06292;
+  margin-left: auto;
+}
+
+    </style>
+
+    </head>
+
+  <body>
+    <div class="top-menu">
+      <div class="top-menu-layout container">
+        <nav class="main-navigation">
+          <a class="logo"><img src="logo-min.png" width="140" height="38" alt="Барбершоп"></a>
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header-layout container">
+        <nav class="sub-navigation">
+          <h1>Прайс-лист</h1>
+          <ul>
+                <li>
+                  <a href="#">Главная</a>
+                </li>
+                <li>
+                  <a href="#">Прайс-лист</a>
+                </li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="content-layout container">
+        <b>Истинно мужская классика</b>
+        <div class="brands">
+          <b>Мы используем только лучшие средства:</b>
+          <ul>
+            <li>Baxter of California</li>
+            <li>Mr Natty</li>
+            <li>Suavecito</li>
+            <li>Malin+Goetz</li>
+          </ul>
+        </div>        
+        <div class="price">
+          <b>Цены на услуги наших мастеров:</b>
+            <table class="price-list">
+            <tr>
+              <td>Стрижка</td>
+              <td>1500 р.</td>
+            </tr>
+            <tr>
+              <td>Стрижка бороды</td>
+              <td>500 р.</td>
+            </tr>
+            <tr>
+              <td>Накрутка усов</td>
+              <td>350 р.</td>
+            </tr>
+          </table>
+        </div> 
+        <div class="content-about-us">
+            <b>Несколько слов о нас:</b>
+            <p class="about-us-left">Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клинента для нас - это уникальная и продуманная до мелочей работа. Мы не работет на количество, мы делаем качество.</p>
+            <p class="about-us-right">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+        </div>   
+      </div>
+    </section>
+
+      <footer class="main-footer">
+        <div class="main-footer-layout container">
+          <section class="footer-contacts">
+            Барбершоп "Бородинский"<br>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            <a href="#">Как нас найти?</a><br>
+            Телефон: +7 (812) 666-02-66
+          </section>
+          <section class="footer-social">
+            <p>Давайте дружить!</p>
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>          
+          </section>
+          <section class="footer-copyright">
+            <p>Разработано:</p>
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          </section>
+        </div>
+      </footer>     
+
+</body>
+</html>
